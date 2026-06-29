@@ -1,0 +1,20 @@
+{
+  "name": "whatsapp-gemini-gateway",
+  "version": "1.0.0",
+  "description": "Gateway WhatsApp + Gemini para OpenClaw",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "express": "^4.18.2",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.23.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
